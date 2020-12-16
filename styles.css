@@ -1,0 +1,57 @@
+h1 {
+  color: orange;
+  font-size: 3em;
+}
+
+.aqua-background {
+  background-color: aqua;
+}
+
+.black-border {
+  border: 1px solid black;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  color: red;
+}
+
+ul {
+  background: blanchedalmond;
+  width: 50%;
+  height: 50vh;
+}
+
+/* CSS Colors and Font Sizes
+Copy and paste the following code between the body tags of your HTML file
+<section class="weather-forecast">
+   <h3 class="weather-heading">This Week's Weather</h3>
+   <p class="forecast">Today: Sunny, high of 53</p>
+   <p class="forecast">Wednesday: Sunny, high of 63</p>
+   <p class="forecast">Thursday: Cloudy, high of 47</p>
+   <p class="forecast">Friday: Sunny, high of 50</p>
+   <p class="forecast">Saturday: Cloudy, high of 56</p>
+</section>
+Apply the following styles:
+Give all p elements a font-size of 1.2em
+Give the class "weather-heading" a font-family of Helvetica.
+Give the class "weather-forecast" a background-color of "#c7d5ed"
+Give the class "forecast" a color of "#270538" */
+p {
+  font-size: 1.2em;
+}
+
+.weather-heading {
+  font-family: "Helvetica";
+}
+
+.weather-forecast {
+  background: #c7d5ed;
+}
+
+.forecast {
+  background: #270538;
+}
