@@ -25,27 +25,17 @@ ul {
   height: 50vh;
 }
 
-/* CSS Colors and Font Sizes
-Copy and paste the following code between the body tags of your HTML file
-<section class="weather-forecast">
-   <h3 class="weather-heading">This Week's Weather</h3>
-   <p class="forecast">Today: Sunny, high of 53</p>
-   <p class="forecast">Wednesday: Sunny, high of 63</p>
-   <p class="forecast">Thursday: Cloudy, high of 47</p>
-   <p class="forecast">Friday: Sunny, high of 50</p>
-   <p class="forecast">Saturday: Cloudy, high of 56</p>
-</section>
-Apply the following styles:
+/* Apply the following styles:
 Give all p elements a font-size of 1.2em
 Give the class "weather-heading" a font-family of Helvetica.
 Give the class "weather-forecast" a background-color of "#c7d5ed"
-Give the class "forecast" a color of "#270538" */
+Give the class "forecast" a color of "#270538" */ */
 p {
   font-size: 1.2em;
 }
 
 .weather-heading {
-  font-family: "Helvetica";
+  font-family: 'Russo One', sans-serif;
 }
 
 .weather-forecast {
@@ -53,5 +43,5 @@ p {
 }
 
 .forecast {
-  background: #270538;
+  color: #270538;
 }
